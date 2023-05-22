@@ -12,7 +12,7 @@ ${LIST_MENU_ITEMS}          tv_home_row_title
 ${ITEM_MENU_TITLE}          Hot at Bar Piranha
 ${LIST_HOT_AT_OPTIONS}      ctv_item_row_title
 ${ITEM_HOT_ARTIST}          Hot Artists
-${HOT_ARTIST_LIST}          com.touchtunes.android:id/ctv_item_artist_view_name
+${HOT_ARTIST_LIST}          ctv_item_artist_view_name
 ${HOT_AT_SESSION_ROUND}     widget_item_round_image
 ${HOT_AT_SESSION_ITEM}      widget_item_round_title
 
