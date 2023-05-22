@@ -2,7 +2,7 @@
  
 >In this project, robotFramework + AppiumLibrary was used due to the ease of setting up the environment to run the tests, easy understanding of the code and the separation of reports.The project is developed in the Page Object Model architecture for a better maintenance of the screen elements, the development of the Steps and code organization.
 
-`The location is being set during the test execution using the Keyword "Set Location", but for information the location used in the test was (latitude** = 45.5018869 longitude** = -73.5673919)`
+`The location is being set during the test execution using the Keyword "Set Location", but for information the location used in the test was (latitude = 45.5018869 longitude = -73.5673919)`
 
 
 ### Configuration needed to run the tests
