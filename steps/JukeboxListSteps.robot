@@ -2,5 +2,5 @@
 Resource         ../pageObjects/JukeboxList.robot
 
 *** Keywords ***
-I choose a jukebox nearby me
+I choose a jukebox nearby
     Select jukebox

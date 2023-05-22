@@ -2,16 +2,15 @@
 Resource         ../pageObjects/Common.robot
 Resource         ../steps/OnboardingSteps.robot
 Resource         ../steps/JukeboxListSteps.robot
-Resource         ../steps/VenueJukeboxSteps.robot
+Resource         ../steps/JukeboxHomeSteps.robot
 
 Test Setup       Open Android Test App
+Test Teardown    End session
 
 *** Test Cases ***
-Compare Hot at list
+Validate Hot Artist List
     Given I access the onboarding page
-    And I choose a jukebox nearby me
-    When I am on the jukebox venue page
-    And I want to see a Hot at artists list
-    And I create a list of artists
-    Then I can validade if this list is equal a home page hot artists list
-
+    And I choose a jukebox nearby
+    When I am on the jukebox home page
+    And I access hot at item on home page menu to see the artist list
+    Then I can validate the list of hot artists
