@@ -9,6 +9,8 @@
 
 * Python installed and set environment variables
 * Appium Server installed and started
+* Android Studio installed and set environment variables
+* Android Studio emulator started
 
 ### Installation
 
