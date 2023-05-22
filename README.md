@@ -7,8 +7,8 @@
 
 ### Configuration needed to run the tests
 
-* Have python installed and set environment variables
-* Have the Appium Server installed and started
+* Python installed and set environment variables
+* Appium Server installed and started
 
 ### Installation
 
